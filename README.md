@@ -25,7 +25,7 @@ Here, several functions have been defined:
 eye_aspect_ratio: Calculates the EAR using the Euclidean distance between the eye landmarks.
 ![image](https://user-images.githubusercontent.com/36480901/226058681-0442c355-f199-414f-8d61-cfae0d3f3356.png)
 
-**EAR = ||p2-p6||-||p3-p5||/2*||p1-p4||**
+**EAR = ||p2-p6||-||p3-p5||/2||p1-p4||**
 
 sound_alarm: Plays an alarm sound using the playsound library.
 
